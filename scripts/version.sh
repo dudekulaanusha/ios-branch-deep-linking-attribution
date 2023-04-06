@@ -30,7 +30,7 @@ Options:
 USAGE
 }
 
-version=2.1.1
+version=2.1.2
 
 if (( $# == 0 )); then
     echo $version
@@ -111,5 +111,5 @@ fi
 
 if [[ $increment ]]; then
     # Update our version (Do this last. Updating a running bash script has undefined results.)
-    sed -i '' -e "s/^version=.*$/version=$version/" "$scriptfile"; exit 0ß
+    sed -i '' -e "s/^version=.*$/version=$version/" "$scriptfile"; exit 0
 fi

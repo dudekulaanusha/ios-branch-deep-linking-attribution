@@ -34,6 +34,7 @@
 		24B75FD396A352DF8FF7ED5F /* Pods-tvOSReleaseTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOSReleaseTestTests.debug.xcconfig"; path = "Target Support Files/Pods-tvOSReleaseTestTests/Pods-tvOSReleaseTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		43F45CA69702C4C48078FB0B /* Pods-tvOSReleaseTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOSReleaseTest.release.xcconfig"; path = "Target Support Files/Pods-tvOSReleaseTest/Pods-tvOSReleaseTest.release.xcconfig"; sourceTree = "<group>"; };
 		794220B24C3AAB292ACE6756 /* Pods-tvOSReleaseTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOSReleaseTest.debug.xcconfig"; path = "Target Support Files/Pods-tvOSReleaseTest/Pods-tvOSReleaseTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E749FB7C2A1C47960042B24B /* tvOSReleaseTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = tvOSReleaseTest.xctestplan; sourceTree = "<group>"; };
 		E7A0C2C92988F7640024497D /* tvOSReleaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSReleaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A0C2CC2988F7640024497D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A0C2CE2988F7640024497D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,13 +82,13 @@
 				24B75FD396A352DF8FF7ED5F /* Pods-tvOSReleaseTestTests.debug.xcconfig */,
 				1F81BFCCB63B1B7E8E4CA1FD /* Pods-tvOSReleaseTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		E7A0C2C02988F7640024497D = {
 			isa = PBXGroup;
 			children = (
+				E749FB7C2A1C47960042B24B /* tvOSReleaseTest.xctestplan */,
 				E7A0C2CB2988F7640024497D /* tvOSReleaseTest */,
 				E7A0C2DF2988F7660024497D /* tvOSReleaseTestTests */,
 				E7A0C2CA2988F7640024497D /* Products */,

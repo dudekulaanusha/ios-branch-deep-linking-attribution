@@ -43,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E749FB7D2A1C47AD0042B24B /* tvOSReleaseTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = tvOSReleaseTest.xctestplan; sourceTree = "<group>"; };
 		E7A0C2C92988F7640024497D /* tvOSReleaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSReleaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A0C2CC2988F7640024497D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A0C2CE2988F7640024497D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		E7A0C2C02988F7640024497D = {
 			isa = PBXGroup;
 			children = (
+				E749FB7D2A1C47AD0042B24B /* tvOSReleaseTest.xctestplan */,
 				E7A0C2CB2988F7640024497D /* tvOSReleaseTest */,
 				E7A0C2DF2988F7660024497D /* tvOSReleaseTestTests */,
 				E7A0C2CA2988F7640024497D /* Products */,

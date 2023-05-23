@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "3E0A7806-0006-4F6B-9480-7A06EAEDC0D0",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:tvOSReleaseTest.xcodeproj",
+      "identifier" : "E7A0C2C82988F7640024497D",
+      "name" : "tvOSReleaseTest"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:tvOSReleaseTest.xcodeproj",
+        "identifier" : "E7A0C2DB2988F7660024497D",
+        "name" : "tvOSReleaseTestTests"
+      }
+    }
+  ],
+  "version" : 1
+}

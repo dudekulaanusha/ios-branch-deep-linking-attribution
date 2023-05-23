@@ -29,6 +29,17 @@ final class tvOSReleaseTestTests: XCTestCase {
         sdk.disableTracking(status: true)
     }
 
+    func testA() throws {
+   
+    }
+
+    func testA2() throws {
+   
+    }
+
+    func testSetTrackingDisabled2() throws {
+   
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

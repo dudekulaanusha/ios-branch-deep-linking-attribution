@@ -16,6 +16,7 @@
 		E7A0C3092989B0320024497D /* BranchSDKTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A0C3082989B0320024497D /* BranchSDKTest.swift */; };
 		E7A0C30C2989B2590024497D /* BranchSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A0C30B2989B2590024497D /* BranchSDK.xcframework */; };
 		E7A0C30D2989B2590024497D /* BranchSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7A0C30B2989B2590024497D /* BranchSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7A2E2B22A1D49FF00559AEF /* BranchSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A0C30B2989B2590024497D /* BranchSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A2E2B22A1D49FF00559AEF /* BranchSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

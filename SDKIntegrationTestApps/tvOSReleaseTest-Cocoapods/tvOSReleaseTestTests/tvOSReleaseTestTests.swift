@@ -21,15 +21,21 @@ final class tvOSReleaseTestTests: XCTestCase {
     }
 
     func testSetTrackingDisabled() throws {
-        Branch.getInstance().enableLogging()
-        Branch.getInstance().initSession(launchOptions: nil) { (params, error) in
-              print(params as? [String: AnyObject] ?? {})
-          }
-        Branch.setTrackingDisabled(true)
-        let x = Branch.trackingDisabled()
-        assert( x == true)
-        Branch.setTrackingDisabled(false)
-        print("Test completed.")
+        do {
+            Branch.getInstance().enableLogging()
+            Branch.getInstance().initSession(launchOptions: nil) { (params, error) in
+                  print(params as? [String: AnyObject] ?? {})
+              }
+            Branch.setTrackingDisabled(true)
+            let x = Branch.trackingDisabled()
+            assert( x == true)
+            Branch.setTrackingDisabled(false)
+            print("Test completed.")
+          
+        } catch {
+           print("Error: \(error)")
+        }
+       
     }
 
 
@@ -38,6 +44,18 @@ final class tvOSReleaseTestTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testA() throws {
+   
+    }
+
+    func testA2() throws {
+   
+    }
+
+    func testSetTrackingDisabled2() throws {
+   
     }
 
 }

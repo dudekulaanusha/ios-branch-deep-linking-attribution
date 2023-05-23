@@ -27,7 +27,7 @@ final class tvOSReleaseTestTests: XCTestCase {
                   print(params as? [String: AnyObject] ?? {})
               }
             Branch.setTrackingDisabled(true)
-            let x = Branch.trackingDisabled()
+           // let x = Branch.trackingDisabled()
            // assert( x == true)
           
         } catch {

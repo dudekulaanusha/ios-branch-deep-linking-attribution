@@ -77,6 +77,8 @@ jobs:
             DESTINATION="platform=tvOS Simulator,name=$(cat ./appleTVSim),OS=latest"
             cd  SDKIntegrationTestApps/tvOSReleaseTest-Cocoapods/
             pod install
+            echo "++++++++++++++++++++++++++++++++++"
+            echo $DESTINATION
             xcodebuild test -scheme tvOSReleaseTest -workspace tvOSReleaseTest.xcworkspace -destination "$DESTINATION" | xcpretty && exit ${PIPESTATUS[0]}
   verify-carthage-tvOS:
     runs-on: macos-latest
@@ -100,4 +102,6 @@ jobs:
             DESTINATION="platform=tvOS Simulator,name=$(cat ./appleTVSim),OS=latest"
             xcodebuild -scheme xcframework
             cd  SDKIntegrationTestApps/tvOSReleaseTest-Manual/
+            echo "++++++++++++++++++++++++++++++++++"
+            echo $DESTINATION
             xcodebuild test -scheme tvOSReleaseTest -project tvOSReleaseTest.xcodeproj -destination "$DESTINATION" | xcpretty && exit ${PIPESTATUS[0]}

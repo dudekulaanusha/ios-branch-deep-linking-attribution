@@ -27,8 +27,8 @@ final class tvOSReleaseTestTests: XCTestCase {
                   print(params as? [String: AnyObject] ?? {})
               }
             Branch.setTrackingDisabled(false)
-           // let x = Branch.trackingDisabled()
-           // assert( x == true)
+            let x = Branch.trackingDisabled()
+            assert( x == false)
           
         } catch {
            print("Error: \(error)")

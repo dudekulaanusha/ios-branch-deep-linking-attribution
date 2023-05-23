@@ -10,11 +10,13 @@
   ],
   "defaultOptions" : {
     "codeCoverage" : false,
+    "defaultTestExecutionTimeAllowance" : 300,
     "targetForVariableExpansion" : {
       "containerPath" : "container:tvOSReleaseTest.xcodeproj",
       "identifier" : "E7A0C2C82988F7640024497D",
       "name" : "tvOSReleaseTest"
-    }
+    },
+    "testTimeoutsEnabled" : true
   },
   "testTargets" : [
     {

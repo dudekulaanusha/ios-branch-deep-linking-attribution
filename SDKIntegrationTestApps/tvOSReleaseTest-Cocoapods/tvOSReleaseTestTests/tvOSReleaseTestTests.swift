@@ -26,6 +26,9 @@ final class tvOSReleaseTestTests: XCTestCase {
             Branch.getInstance().initSession(launchOptions: nil) { (params, error) in
                   print(params as? [String: AnyObject] ?? {})
               }
+            Branch.setTrackingDisabled(true)
+            let x = Branch.trackingDisabled()
+            assert( x == true)
           
         } catch {
            print("Error: \(error)")
